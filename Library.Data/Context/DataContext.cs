@@ -6,7 +6,9 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Library.Data
-{//
+{/// <summary>
+/// /
+/// </summary>
     public class DataContext : DbContext
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)

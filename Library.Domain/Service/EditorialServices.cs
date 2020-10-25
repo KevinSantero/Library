@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Library.Domain.Service
-{
+{//
     public class EditorialServices : IEditorial
     {
         #region Attributes
