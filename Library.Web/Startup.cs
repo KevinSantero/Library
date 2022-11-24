@@ -1,8 +1,8 @@
-using Library.Data;
-using Library.Data.Repository;
-using Library.Data.Repository.Interface;
-using Library.Domain.Service;
-using Library.Domain.Service.Interface;
+using TecnicalTestPersonas.Data;
+using TecnicalTestPersonas.Data.Repository;
+using TecnicalTestPersonas.Data.Repository.Interface;
+using TecnicalTestPersonas.Domain.Service;
+using TecnicalTestPersonas.Domain.Service.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Library.Web
+namespace TecnicalTestPersonas.Web
 {
     public class Startup
     {
@@ -36,14 +36,9 @@ namespace Library.Web
            
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 
-            services.AddTransient<ILibraryRepository, LibraryRepository>();
+            services.AddTransient<ITerceroRepository, TerceroRepository>();
 
-            services.AddTransient<IEditorialRepository, EditorialRepository>();
-
-            services.AddTransient<ILibrary, LibraryServices>();
-
-            services.AddTransient<IEditorial, EditorialServices>();
-
+            services.AddTransient<ITercero, TerceroServices>();
 
             #endregion
 
@@ -71,7 +66,7 @@ namespace Library.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Tercero}/{action=Index}/{id?}");
             });
         }
     }

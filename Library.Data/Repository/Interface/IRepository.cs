@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Library.Data.Repository.Interface
+namespace TecnicalTestPersonas.Data.Repository.Interface
 {
     public interface IRepository<TEntity> where TEntity : class
     {

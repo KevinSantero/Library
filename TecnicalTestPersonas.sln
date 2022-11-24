@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Data", "Library.Data\Library.Data.csproj", "{D22123AC-04A5-4149-B43E-87343736A259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTestPersonas.Data", "Library.Data\TecnicalTestPersonas.Data.csproj", "{D22123AC-04A5-4149-B43E-87343736A259}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Domain", "Library.Domain\Library.Domain.csproj", "{7B01383C-42E5-49DA-B4D2-94D033FFF557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTestPersonas.Domain", "Library.Domain\TecnicalTestPersonas.Domain.csproj", "{7B01383C-42E5-49DA-B4D2-94D033FFF557}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Web", "Library.Web\Library.Web.csproj", "{47EC7E1E-CBB4-43C9-8C4C-67FA6EB07EDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTestPersonas.Web", "Library.Web\TecnicalTestPersonas.Web.csproj", "{47EC7E1E-CBB4-43C9-8C4C-67FA6EB07EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
